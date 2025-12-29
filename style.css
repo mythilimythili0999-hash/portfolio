@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    
+}
+.nav{
+    padding:0%;
+
+}
+.navcontainer{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap:1em; 
+      margin:0%;
+      height: 5rem;
+      font-weight: 100%;
+      background-color: lightblue;
+    padding: 1rem;
+}
+.nav ul{
+    list-style: none;
+   display: flex;
+    gap: 2rem;
+
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(241, 252, 255);
+    
+    }
+    .mydiv{
+        margin:0%;
+        padding: 5rem;
+        padding-bottom:4rem;
+        background-color: yellow;
+        color: orangered;
+    }
+    .mydiv h2{
+        padding: 16px;
+    }
+    .mydiv p{
+        padding-bottom: 1rem;
+    }
+ .mydiv button{
+     background-color: lightblue;
+     border: none;
+     font-weight: 100%;
+     height: 2rem;
+     width: 10rem;
+     
+ }      
+
+.mydiv a{
+    text-decoration: none;
+    color: orangered;
+    
+}
+  
+.MY{
+
+    background-color: brown;
+    color: white;
+    height:800px;
+    width: 100%;
+    padding: 150px;
+}
+.MY h2{
+    width:20rem;
+    height: 30rem;
+    background-color: aqua;
+    text-align: center;
+    padding: 16px;
+    margin-top: 12%;
+
+}
+.projects{
+    width:20rem;
+    height: 30rem;
+    background-color: aqua;
+    text-align: center;
+    padding: 16px;
+    margin-top: 12%;
+    margin-left: 500px;
+
+}
